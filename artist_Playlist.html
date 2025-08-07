@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="artist_playlist.css">
+	<title>Artist Playlist</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<!-- 
+			logo
+			name
+
+			fav
+			Search box
+			icon
+			profile photo -->
+			<div id="logo">
+				<img src="images/station_2.png">
+			</div>
+
+			<div id="logo-text">
+				<p>Music</p>
+				<p>Stream</p>
+			</div>
+
+			<div id="favorites-btn">
+				Favourites
+			</div>
+
+			<div id="search-form">
+				<form action="">
+					<input type="text" name="search" placeholder="Search">
+				</form>
+			</div>
+
+			<div id="profile-picture">
+				<img src="images/img_55.jpg">
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<header id="artist-about">
+			<div id="artist-img">
+				<img src="images/img_88.jpg">
+			</div>
+			<div id="artist-description">
+				<div id="artist-header">
+					<h2>ColdPlay</h2>
+					<span>855 Followers</span>
+				</div>
+				<p id="artist-sub-header">British Band</p>
+				<div id="artist-desc">
+					ColdPlay British Band, enjoyed success since their inception in 1996 through their intelligent and soulful songs.
+					The band members are Chris Martin(Lead Vocals), Jonny Bunckland(Lead Guitarist), Guy Berryman(Bassist) and Will Champion(Drummer).
+				</div>
+				<div id="artist-actions">
+					<button id="artist-play-button">
+						Play All
+					</button>
+					<button id="artist-follow">Follow</button>
+				</div>
+				<p id="artist-song-count">247 Tracks | 128 Albums</p>
+			</div>
+		</header>
+
+		<div id="artist-songs-list">
+			<div class="queue-tile">
+					<p id="queue-tile-number">01</p>
+					<img src="images/img_88.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">02</p>
+					<img src="images/img_11.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">03</p>
+					<img src="images/img_55.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">04</p>
+					<img src="images/img_22.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">05</p>
+					<img src="images/img_77.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">06</p>
+					<img src="images/img_99.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">07</p>
+					<img src="images/img_44.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">08</p>
+					<img src="images/img_33.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">09</p>
+					<img src="images/img_66.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">10</p>
+					<img src="images/img_88.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">11</p>
+					<img src="images/img_99.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">12</p>
+					<img src="images/img_55.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">13</p>
+					<img src="images/img_88.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">14</p>
+					<img src="images/img_11.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">15</p>
+					<img src="images/img_33.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">16</p>
+					<img src="images/img_77.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">17</p>
+					<img src="images/img_22.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">18</p>
+					<img src="images/img_66.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">19</p>
+					<img src="images/img_11.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+
+				<div class="queue-tile">
+					<p id="queue-tile-number">20</p>
+					<img src="images/img_44.jpg">
+					<div class="queue-tile-details">
+						<p>Nature</p>
+						<p>AS_</p>
+					</div>
+					<button id="queue-tile-fav">FAV</button>
+					<button id="queue-tile-add">ADD</button>
+				</div>
+		</div>
+	</main>
+
+	<aside>
+		<div id="aside-container">
+			<section id="similar-artists">
+				<div class="queue-header">
+					<h2>Similar Artists</h2>
+					<button type="text">View All</button>
+				</div>
+				<div id="latest-release-content">
+					<div class="latest-release-tile">
+					<img src="images/img_33.jpg">
+					<div id="latest-release-text-1">
+						<p>Flower</p>
+						<p>JUNE 14, 2022</p>
+					</div>
+					<div id="latest-release-text-2">
+						<p>PLAY</p>
+						<p>3:36</p>
+					</div>
+				</div>
+				<div class="latest-release-tile">
+					<img src="images/img_99.jpg">
+					<div id="latest-release-text-1">
+						<p>Flower</p>
+						<p>JUNE 14, 2022</p>
+					</div>
+					<div id="latest-release-text-2">
+						<p>PLAY</p>
+						<p>3:36</p>
+					</div>
+				</div>
+				<div class="latest-release-tile">
+					<img src="images/img_11.jpg">
+					<div id="latest-release-text-1">
+						<p>Flower</p>
+						<p>JUNE 14, 2022</p>
+					</div>
+					<div id="latest-release-text-2">
+						<p>PLAY</p>
+						<p>3:36</p>
+					</div>
+				</div>
+				</div>
+			</section>
+
+			<section id="recently-played">
+					<div class="queue-header">
+						<h2>Recently Played</h2>
+						<button type="text">View All</button>
+					</div>
+
+					
+					<div id="recently-played-content">
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">01</p>
+							<img src="images/img_88.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">02</p>
+							<img src="images/img_11.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">03</p>
+							<img src="images/img_44.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">04</p>
+							<img src="images/img_66.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">05</p>
+							<img src="images/img_99.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">06</p>
+							<img src="images/img_22.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">07</p>
+							<img src="images/img_55.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">08</p>
+							<img src="images/img_77.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">09</p>
+							<img src="images/img_11.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">10</p>
+							<img src="images/img_99.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">11</p>
+							<img src="images/img_88.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">12</p>
+							<img src="images/img_33.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">13</p>
+							<img src="images/img_77.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">14</p>
+							<img src="images/img_44.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">15</p>
+							<img src="images/img_66.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+						<div class="recently-played-tile">
+							<p id="recently-played-tile-number">16</p>
+							<img src="images/img_99.jpg">
+							<div class="recently-played-tile-details">
+								<p>Nature</p>
+								<p>AS_</p>
+							</div>
+							<button id="recently-played-tile-fav">FAV</button>
+						</div>
+
+
+					
+					</div>
+
+
+
+
+			</section>
+		</div>
+	</aside>
+
+	<div id="player">
+		<audio controls>
+			<source src="audio/" type="audio/mp3">
+			Browser Does Not Supports Audio Files
+		</audio>
+	</div>
+</body>
+</html>
